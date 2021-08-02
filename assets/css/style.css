@@ -904,6 +904,27 @@ img{max-width: 100%; height:auto}
     .testimonial_description{
         text-align: center;
     }
+    .footer_container{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 567px) and (min-width: 351px){
+    .services_container{
+        grid-template-columns: repeat(2, 160px);
+        justify-content: center;
+    }
+    .services_icon{
+        font-size: 2rem;
+    }
+    .services_content{
+        padding: 6rem 0 2rem 2.5rem;
+    }
+    .services_modal-content{
+        width: 450px;
+    }
+    .footer_container{
+        justify-content: center;
+    }
 }
 /* FOR MEDIUM DEVICES */
 @media screen and (min-width: 568px){
