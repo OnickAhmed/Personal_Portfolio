@@ -149,7 +149,7 @@ function scrollHeader() {
 }
 window.addEventListener('scroll', scrollHeader);
 
-//SCROLL TOP
+// //SCROLL TOP
 function scrollUp() {
   const scrollUp = document.getElementById('scroll-up');
   if(this.scrollY >= 560) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll');
@@ -184,5 +184,3 @@ themeButton.addEventListener('click', () => {
   localStorage.setItem('selected-theme', getCurrentTheme());
   localStorage.setItem('selected-icon', getCurrentIcon());
 })
-
-
